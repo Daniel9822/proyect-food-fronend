@@ -1,0 +1,23 @@
+.main {
+    max-width: 1200px;
+    min-height: 80vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 40px;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: rgba(0, 0, 0, 0.762);
+    border-radius: 10px;
+}
+
+.conteiner {
+    padding-top: 20px;
+    background-color: black;
+    background-image: url('./20491982.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

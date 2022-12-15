@@ -1,0 +1,43 @@
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 600px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    
+}
+
+.pages{
+    display: flex;
+    padding: 0;
+    gap: 5px;
+}
+
+.page{
+    list-style: none;
+    border-radius: 50%;
+}
+
+.pagBtn{
+    margin: 0;
+    border: none;
+    margin-left: 10px;
+    background-color: black;
+}
+
+.pagBtn{
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+}
+
+.pagBtn:hover{
+    color: white;
+    background-color: tomato;
+}
+
